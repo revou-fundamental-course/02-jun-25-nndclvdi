@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web - Nanda's Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h3>Nanda's School</h3>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#profile" class="nav-link">Our Profile</a></li>
+                <li><a href="#facilities" class="nav-link">Fasilitas Kami</a></li>
+                <li><a href="#contact" class="nav-link">Message Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="banner">
+            <div class="banner-content">
+                <h1 id="welcome-message">Welcome to Nanda's School</h1>
+                <p>Nanda's Portofolio by joining Software Engineering Foundation Course</p>
+                <button class="cta-button" onclick="scrollToSection('profile')">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="section profile-section">
+        <div class="container">
+            <h2>Our Profile</h2>
+            
+            <!-- About School -->
+            <div class="profile-content">
+                <div class="about-section">
+                    <h3>About Nanda's School</h3>
+                    <p>Software Engineering Foundation Course (SEFC) adalah institusi pendidikan yang berfokus pada pengembangan talenta di bidang rekayasa perangkat lunak. Kami berkomitmen untuk memberikan pendidikan berkualitas tinggi yang mempersiapkan siswa untuk menjadi software engineer yang kompeten dan profesional.</p>
+                    <p>Dengan kurikulum yang up-to-date dan pengajar berpengalaman, SEFC telah menjadi pilihan utama bagi mereka yang ingin memulai karir di dunia teknologi. Program kami dirancang untuk memberikan pemahaman mendalam tentang konsep-konsep fundamental dalam software engineering serta praktik terbaik di industri.</p>
+                </div>
+
+                <div class="vision-mission">
+                    <div class="vision">
+                        <h3>Visi</h3>
+                        <p>Menjadi institusi pendidikan teknologi terdepan yang menghasilkan software engineer berkualitas tinggi dan siap bersaing di era digital.</p>
+                    </div>
+                    <div class="mission">
+                        <h3>Misi</h3>
+                        <ul>
+                            <li>Memberikan pendidikan berkualitas dengan kurikulum yang selalu update sesuai perkembangan teknologi</li>
+                            <li>Mengembangkan keterampilan teknis dan soft skills yang dibutuhkan di industri teknologi</li>
+                            <li>Membangun karakter profesional dan etika kerja yang tinggi</li>
+                            <li>Menciptakan lingkungan pembelajaran yang inovatif dan kolaboratif</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="section facilities-section">
+        <div class="container">
+            <h2>Fasilitas Kami</h2>
+            <p style="text-align: center; margin-bottom: 3rem; font-size: 1.1rem; color: #666;">
+                Nanda's School menyediakan fasilitas modern dan lengkap untuk mendukung proses pembelajaran yang optimal
+            </p>
+            
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <h3>Lab Komputer Modern</h3>
+                    <p>Dilengkapi dengan perangkat keras terbaru dan software development tools terkini. Setiap workstation memiliki spesifikasi tinggi untuk mendukung development aplikasi yang kompleks.</p>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>50+ workstation dengan spesifikasi high-end</li>
+                        <li>Multiple monitor setup</li>
+                        <li>Software development tools lengkap</li>
+                        <li>High-speed internet connection</li>
+                    </ul>
+                </div>
+                
+                <div class="facility-card">
+                    <h3>Perpustakaan Digital</h3>
+                    <p>Akses ke ribuan e-book dan resource pembelajaran programming dari publisher terkemuka dunia. Koleksi yang selalu terupdate dengan teknologi terbaru.</p>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>5000+ e-book programming</li>
+                        <li>Online course platform</li>
+                        <li>Technical documentation</li>
+                        <li>24/7 digital access</li>
+                    </ul>
+                </div>
+                
+                <div class="facility-card">
+                    <h3>Ruang Kolaborasi</h3>
+                    <p>Space modern yang dirancang khusus untuk project-based learning dan teamwork. Dilengkapi dengan tools presentasi dan brainstorming yang lengkap.</p>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>Interactive whiteboard</li>
+                        <li>Flexible seating arrangement</li>
+                        <li>Video conferencing tools</li>
+                        <li>Project management tools</li>
+                    </ul>
+                </div>
+                
+                <div class="facility-card">
+                    <h3>Career Center</h3>
+                    <p>Pusat bimbingan karir yang menghubungkan mahasiswa dengan industri teknologi. Menyediakan career counseling dan job placement assistance.</p>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>Career counseling sessions</li>
+                        <li>Industry networking events</li>
+                        <li>Interview preparation</li>
+                        <li>Job placement assistance</li>
+                    </ul>
+                </div>
+                
+                <div class="facility-card">
+                    <h3>Innovation Lab</h3>
+                    <p>Laboratorium khusus untuk eksperimen dan pengembangan teknologi baru. Dilengkapi dengan peralatan untuk IoT, AI, dan emerging technologies.</p>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>IoT development kits</li>
+                        <li>AI/ML workstations</li>
+                        <li>3D printing facilities</li>
+                        <li>Prototype development tools</li>
+                    </ul>
+                </div>
+                
+                <div class="facility-card">
+                    <h3>Student Lounge</h3>
+                    <p>Area santai untuk mahasiswa berdiskusi dan bersosialisasi. Dilengkapi dengan fasilitas yang nyaman untuk break time dan informal learning.</p>
+                    <ul style="text-align: left; margin-top: 1rem;">
+                        <li>Comfortable seating area</li>
+                        <li>Gaming zone</li>
+                        <li>Coffee & snack bar</li>
+                        <li>Study pods</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Message Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Hubungi kami untuk informasi lebih lanjut tentang program nanda's school atau jika Anda memiliki pertanyaan.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Alamat:</strong>
+                            <p>Jl. UPN "Veteran" Jawa Timur, Surabaya, Jawa Timur</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Telepon:</strong>
+                            <p>+62 89515776630</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>donandamsuwondo@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Display submitted form data -->
+            <div id="submittedData" class="submitted-data" style="display: none;">
+                <h3>Form Submitted Successfully!</h3>
+                <div id="displayData"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Nanda's Portofolio - Software Engineering Foundation Course. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
